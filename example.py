@@ -28,7 +28,11 @@ X = data.data
 mfe = MFE(groups = ['info-theory'])
 mfe.fit(X, y)
 ft = mfe.extract()
-print("\n".join("{:50} {:30}".format(x, y) for x, y in zip(ft[0], ft[1])))
+
+
+print(ft)
+
+#print("\n".join("{:50} {:30}".format(x, y) for x, y in zip(ft[0], ft[1])))
 
 # ###############################################################################
 # # Extracting general, statistical and information-theoretic measures
