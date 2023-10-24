@@ -56,7 +56,7 @@ INSTALL_REQUIRES = [
     "statsmodels",
     "texttable",
     "tqdm",
-    "igraph>=0.10.1",
+    "igraph>=0.9.11",
     "gower",
 ]
 
