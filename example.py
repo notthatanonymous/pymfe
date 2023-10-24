@@ -30,7 +30,7 @@ mfe.fit(X, y)
 ft = mfe.extract()
 
 
-print(ft)
+print(ft[1][ft[0].index('mut_inf.mean')])
 
 #print("\n".join("{:50} {:30}".format(x, y) for x, y in zip(ft[0], ft[1])))
 
